@@ -8,7 +8,7 @@ import { SignalRService } from '../signalr.service';
   template: `
     <video #localVideo autoplay playsinline></video>
     <video #remoteVideo autoplay playsinline></video>
-    <button style="border:1px solid #f00" (click)="startCall()">Start Call</button>
+    <button style="border:1px solid #f00;background:#f00" (click)="startCall()">Start Call</button>
   `,
   styles: [],
 })
